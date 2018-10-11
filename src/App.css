@@ -1,0 +1,202 @@
+html {
+  font-size: 13px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/** Algolia highlight **/
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+/** HEADER **/
+.search-header {
+  min-height: 80px;
+  background-color: #99d4da;
+  padding-top: 2px;
+}
+
+.search-header img {
+  padding-left: 20%;
+  max-height: 76px;
+}
+
+.search-header .ais-SearchBox {
+  padding-top: 21px;
+}
+
+.search-header .ais-SearchBox-input {
+  height: 34px;
+  padding-left: 25px;
+}
+
+/** COLLECTIONS **/
+.site-selector {
+  margin-top: 1%;
+  border-bottom: lightgrey thin solid;
+  margin-bottom: 1%;
+}
+
+.site-selector a {
+  text-decoration: none;
+}
+
+.site-selector a:hover {
+  text-shadow: 1px 0 #777;
+}
+
+.site-selector .ais-Menu {
+  width: 100%;
+  height: 30px;
+}
+
+.site-selector .ais-Menu-item {
+  float: left;
+  height: 30px;
+  margin-right: 1%;
+  margin-left: 1%;
+  border-bottom: 2px solid transparent;
+}
+
+.site-selector .ais-Menu-item .ais-Menu-label {
+  color: #777;
+}
+
+.site-selector .ais-Menu-item .ais-Menu-count {
+  background-color: #777;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.site-selector .ais-Menu-item--selected {
+  border-bottom: 3px solid mediumseagreen;
+}
+
+.site-selector .ais-Menu-item--selected .ais-Menu-label {
+  color: mediumseagreen;
+}
+
+.site-selector .ais-Menu-item--selected a:hover {
+  text-shadow: 1px 0 mediumseagreen;
+}
+
+.site-selector .ais-Menu-item--selected .ais-Menu-count {
+  background-color: mediumseagreen;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/** SEARCH TOOLS **/
+.search-tools {
+  margin-top: 2px;
+  padding-left: 1%;
+}
+
+.search-tools .ais-SortBy {
+  display: inline;
+}
+
+.search-tools .ais-HitsPerPage {
+  display: inline;
+}
+
+.search-tools .ais-CurrentRefinements {
+  margin-top: 2px;
+  display: inline;
+}
+
+/** RESULTS **/
+.results .ais-Stats {
+  padding: 1% 0 1% 1%;
+  color: #777;
+}
+
+.results .left-panel {
+  margin-top: -25%;
+}
+
+/** LEFT PANEL **/
+.left-panel .ais-HierarchicalMenu {
+  margin-bottom: 10%;
+}
+
+.left-panel .ais-HierarchicalMenu a {
+  text-decoration: none;
+}
+
+.left-panel .ais-HierarchicalMenu a:hover {
+  font-weight: bold;
+}
+
+.left-panel .ais-HierarchicalMenu-item .ais-HierarchicalMenu-label {
+  color: #333;
+}
+
+.left-panel .ais-HierarchicalMenu-item .ais-HierarchicalMenu-count {
+  background-color: mediumseagreen;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.left-panel .ais-HierarchicalMenu-showMore {
+  background-color: mediumseagreen;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/** PDF icon style **/
+.results .glyphicon-file {
+  margin-right: .5em;
+}
+
+.results .pdf-icon {
+  margin-right: .5em;
+}
+
+.results .ais-Hits-item {
+  min-height: 85px;
+  width: 100%;
+  margin-top: auto;
+  margin-left: auto;
+  border: none;
+  box-shadow: none;
+}
+
+.results li.ais-Hits-item:hover {
+  background-color: #f0f8ff;
+}
+
+.results .hit-name img {
+  margin-right: .5em;
+}
+
+.results .hit-url {
+  color: darkgreen;
+}
+
+.results .hit-content {
+  color: #333;
+}
+
+.results .pagination a {
+  text-decoration: none;
+}
+
+.results .ais-Pagination-item--page .ais-Pagination-link {
+  color: mediumseagreen;
+}
+
+.results .ais-Pagination-item--selected .ais-Pagination-link {
+  color: white;
+  background-color: mediumseagreen;
+  border-color: mediumseagreen;
+}

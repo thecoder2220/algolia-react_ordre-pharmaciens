@@ -1,0 +1,38 @@
+{
+  "name": "algolia-react_ordre-pharmaciens",
+  "author": "HGE",
+  "description": "Algolia integration for Ordre National des Pharmaciens",
+  "keywords": [
+    "react",
+    "algolia",
+    "sword"
+  ],
+  "license": "GNU GPLv3",
+  "homepage": "http://connect2.sword-connect.com/onp_algolia/",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.5.0",
+    "react-instantsearch": "^5.2.3",
+    "react-scripts": "^1.1.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-algolia": "^13.2.3",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.2",
+    "prop-types": "^15.6.2"
+  }
+}
